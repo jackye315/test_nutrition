@@ -1,15 +1,15 @@
 //
-//  testTests.swift
-//  testTests
+//  nutritionTests.swift
+//  nutritionTests
 //
-//  Created by Jack Ye on 8/21/17.
+//  Created by Jack Ye on 8/22/17.
 //  Copyright © 2017 Jack Ye. All rights reserved.
 //
 
 import XCTest
-@testable import test
+@testable import nutrition
 
-class testTests: XCTestCase {
+class nutritionTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

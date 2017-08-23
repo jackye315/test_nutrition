@@ -143,7 +143,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
         // Save filePath and imagePlacement to CoreData
         let container = appDelegate.persistentContainer
         let context = container.viewContext
-        let entity = Image(context: context)
+        let entity = image(context: context)
         entity.filePath = filePath.path
         
         switch selectedImageTag {
@@ -163,7 +163,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
         // Set up fetch request
         let container = appDelegate.persistentContainer
         let context = container.viewContext
-        let fetchRequest = NSFetchRequest<Image>(entityName: "Image")
+        let fetchRequest = NSFetchRequest<image>(entityName: "Image")
         
         do {
             // Retrive array of all image entities in core data

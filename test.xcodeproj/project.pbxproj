@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D22D2C31F4D11DD00A27597 /* ImagePlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D22D2C21F4D11DD00A27597 /* ImagePlacement.swift */; };
 		8DBF988B1F4AB7F800EDA87C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBF988A1F4AB7F800EDA87C /* AppDelegate.swift */; };
 		8DBF988D1F4AB7F800EDA87C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBF988C1F4AB7F800EDA87C /* ViewController.swift */; };
 		8DBF98901F4AB7F800EDA87C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBF988E1F4AB7F800EDA87C /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D22D2C21F4D11DD00A27597 /* ImagePlacement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePlacement.swift; sourceTree = "<group>"; };
 		8DBF98871F4AB7F800EDA87C /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBF988A1F4AB7F800EDA87C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DBF988C1F4AB7F800EDA87C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				8DBF98911F4AB7F800EDA87C /* Assets.xcassets */,
 				8DBF98931F4AB7F800EDA87C /* LaunchScreen.storyboard */,
 				8DBF98961F4AB7F800EDA87C /* Info.plist */,
+				8D22D2C21F4D11DD00A27597 /* ImagePlacement.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D22D2C31F4D11DD00A27597 /* ImagePlacement.swift in Sources */,
 				8DBF988D1F4AB7F800EDA87C /* ViewController.swift in Sources */,
 				8DBF988B1F4AB7F800EDA87C /* AppDelegate.swift in Sources */,
 			);
@@ -341,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.test;
@@ -353,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.test;
@@ -408,6 +414,7 @@
 				8DBF98A61F4AB7F800EDA87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBF98A71F4AB7F800EDA87C /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +423,7 @@
 				8DBF98A91F4AB7F800EDA87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

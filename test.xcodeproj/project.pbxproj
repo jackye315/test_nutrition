@@ -17,6 +17,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8D22D2F91F4D30A100A27597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D22D2F41F4D309F00A27597 /* sdfsd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D22D2CD1F4D309F00A27597;
+			remoteInfo = sdfsd;
+		};
+		8D22D2FB1F4D30A100A27597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D22D2F41F4D309F00A27597 /* sdfsd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D22D2E51F4D309F00A27597;
+			remoteInfo = sdfsdTests;
+		};
 		8DBF989C1F4AB7F800EDA87C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8DBF987F1F4AB7F800EDA87C /* Project object */;
@@ -28,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		8D22D2C21F4D11DD00A27597 /* ImagePlacement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePlacement.swift; sourceTree = "<group>"; };
+		8D22D2F41F4D309F00A27597 /* sdfsd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sdfsd.xcodeproj; path = sdfsd/sdfsd.xcodeproj; sourceTree = "<group>"; };
 		8DBF98871F4AB7F800EDA87C /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBF988A1F4AB7F800EDA87C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DBF988C1F4AB7F800EDA87C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,9 +73,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D22D2F51F4D309F00A27597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D22D2FA1F4D30A100A27597 /* sdfsd.app */,
+				8D22D2FC1F4D30A100A27597 /* sdfsdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8DBF987E1F4AB7F800EDA87C = {
 			isa = PBXGroup;
 			children = (
+				8D22D2F41F4D309F00A27597 /* sdfsd.xcodeproj */,
 				8DBF98891F4AB7F800EDA87C /* test */,
 				8DBF989E1F4AB7F800EDA87C /* testTests */,
 				8DBF98881F4AB7F800EDA87C /* Products */,
@@ -170,6 +195,12 @@
 			mainGroup = 8DBF987E1F4AB7F800EDA87C;
 			productRefGroup = 8DBF98881F4AB7F800EDA87C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8D22D2F51F4D309F00A27597 /* Products */;
+					ProjectRef = 8D22D2F41F4D309F00A27597 /* sdfsd.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8DBF98861F4AB7F800EDA87C /* test */,
@@ -177,6 +208,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8D22D2FA1F4D30A100A27597 /* sdfsd.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = sdfsd.app;
+			remoteRef = 8D22D2F91F4D30A100A27597 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8D22D2FC1F4D30A100A27597 /* sdfsdTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = sdfsdTests.xctest;
+			remoteRef = 8D22D2FB1F4D30A100A27597 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8DBF98851F4AB7F800EDA87C /* Resources */ = {

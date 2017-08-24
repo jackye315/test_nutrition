@@ -39,8 +39,8 @@
 
 /* Begin PBXFileReference section */
 		8D22D3391F4D323D00A27597 /* nutrition.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = nutrition.xcodeproj; path = nutrition/nutrition.xcodeproj; sourceTree = "<group>"; };
-		8DCDE6DA1F4DE368000F5576 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DCDE6DB1F4DE368000F5576 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCDE6E51F4DF415000F5576 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = testTests.xctest; path = "/Users/JackYe/Documents/RandomProjects/HealthApp/test/build/Debug-iphoneos/testTests.xctest"; sourceTree = "<absolute>"; };
+		8DCDE6EA1F4E35D4000F5576 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = test.app; path = "/Users/JackYe/Documents/RandomProjects/HealthApp/test/build/Debug-iphoneos/test.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				8D22D3391F4D323D00A27597 /* nutrition.xcodeproj */,
-				8DCDE6DA1F4DE368000F5576 /* test.app */,
-				8DCDE6DB1F4DE368000F5576 /* testTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +95,7 @@
 			);
 			name = test;
 			productName = test;
-			productReference = 8DCDE6DA1F4DE368000F5576 /* test.app */;
+			productReference = 8DCDE6EA1F4E35D4000F5576 /* test.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8DBF989A1F4AB7F800EDA87C /* testTests */ = {
@@ -115,7 +113,7 @@
 			);
 			name = testTests;
 			productName = testTests;
-			productReference = 8DCDE6DB1F4DE368000F5576 /* testTests.xctest */;
+			productReference = 8DCDE6E51F4DF415000F5576 /* testTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -131,6 +129,7 @@
 					8DBF98861F4AB7F800EDA87C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 2UWXRNBC4J;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					8DBF989A1F4AB7F800EDA87C = {
@@ -331,11 +330,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2UWXRNBC4J;
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/nutrition/nutrition/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.core.test-nutrition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -344,11 +346,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2UWXRNBC4J;
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/nutrition/nutrition/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.core.test-nutrition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

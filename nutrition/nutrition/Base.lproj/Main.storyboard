@@ -75,19 +75,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="83" y="313" width="209.5" height="41.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
+                                <rect key="frame" x="83" y="534" width="209.5" height="41.5"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="80" y="362.5" width="215" height="17"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
+                                <rect key="frame" x="80" y="583" width="215" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sT6-Pc-oqn">
+                                <rect key="frame" x="99" y="120" width="170" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="1000 Calorie Diet"/>
+                                <connections>
+                                    <segue destination="THy-SN-EDI" kind="show" id="gEP-Rd-9Wz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -98,10 +106,90 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Main" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="calorie_1000" destination="sT6-Pc-oqn" id="lRq-QI-O3i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="0.0"/>
+            <point key="canvasLocation" x="749.60000000000002" y="-0.44977511244377816"/>
+        </scene>
+        <!--Dinner-->
+        <scene sceneID="YFY-XQ-kWI">
+            <objects>
+                <viewController id="1b1-UZ-gUl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7bS-fG-GI7"/>
+                        <viewControllerLayoutGuide type="bottom" id="VIO-MQ-mey"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bUF-nB-LBg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Dinner" id="XYC-gn-Jcq"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cO4-dS-J9m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2410" y="762"/>
+        </scene>
+        <!--Lunch-->
+        <scene sceneID="3Wr-3d-iri">
+            <objects>
+                <viewController id="ehW-WA-sY7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Frj-1o-Cwv"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Wq-fG-TOP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KEO-uc-ggD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Lunch" id="va7-IC-5ub"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ncv-m7-9Eh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2425" y="81"/>
+        </scene>
+        <!--Breakfast-->
+        <scene sceneID="tYf-GO-tPZ">
+            <objects>
+                <viewController id="DeY-Ea-C8Q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y9Z-mH-jk1"/>
+                        <viewControllerLayoutGuide type="bottom" id="j9q-X6-JmV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YHj-tR-NmQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Breakfast" id="hNV-WX-HCr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="13S-aN-WSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2425" y="-584"/>
+        </scene>
+        <!--Custom Tab Bar Controller-->
+        <scene sceneID="y02-VN-WO4">
+            <objects>
+                <tabBarController id="THy-SN-EDI" customClass="CustomTabBarController" customModule="nutrition" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="QBf-03-2pn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="DeY-Ea-C8Q" kind="relationship" relationship="viewControllers" id="PiX-GB-bNO"/>
+                        <segue destination="ehW-WA-sY7" kind="relationship" relationship="viewControllers" id="lFR-6M-40R"/>
+                        <segue destination="1b1-UZ-gUl" kind="relationship" relationship="viewControllers" id="aZ4-kI-eiQ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P49-EJ-tQv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1473" y="-98"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -123,10 +211,10 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Calender-->
+        <!--Stats-->
         <scene sceneID="93t-oi-LPv">
             <objects>
-                <viewController id="Gf0-Xp-vwS" sceneMemberID="viewController">
+                <viewController id="Gf0-Xp-vwS" customClass="ThirdViewController" customModule="nutrition" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SLT-Yg-Mue"/>
                         <viewControllerLayoutGuide type="bottom" id="q5R-zH-hDz"/>
@@ -143,14 +231,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IMk-A8-P0X">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="first" highlightedImage="first" translatesAutoresizingMaskIntoConstraints="NO" id="IMk-A8-P0X">
                                 <rect key="frame" x="67" y="295" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Calender" id="4uu-6N-aVr"/>
+                    <tabBarItem key="tabBarItem" title="Stats" image="second" selectedImage="second" id="4uu-6N-aVr"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fVd-7d-TAp" userLabel="First Responder" sceneMemberID="firstResponder"/>

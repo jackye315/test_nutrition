@@ -13,8 +13,8 @@
 		8D22D3111F4D323D00A27597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D22D30F1F4D323D00A27597 /* Main.storyboard */; };
 		8D22D3131F4D323D00A27597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D22D3121F4D323D00A27597 /* Assets.xcassets */; };
 		8D22D3161F4D323D00A27597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D22D3141F4D323D00A27597 /* LaunchScreen.storyboard */; };
-		8D22D3211F4D323D00A27597 /* nutritionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D22D3201F4D323D00A27597 /* nutritionTests.swift */; };
-		8D22D32C1F4D323D00A27597 /* nutritionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D22D32B1F4D323D00A27597 /* nutritionUITests.swift */; };
+		8DCDE6E91F4DF448000F5576 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCDE6E81F4DF448000F5576 /* CustomTabBarController.swift */; };
+		8DCDE6EC1F4E3C19000F5576 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCDE6EB1F4E3C19000F5576 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8D22D3061F4D323C00A27597 /* nutrition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nutrition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D22D3061F4D323C00A27597 /* nutrition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = nutrition.app; path = "/Users/JackYe/Documents/RandomProjects/HealthApp/test/nutrition/build/Debug-iphoneos/nutrition.app"; sourceTree = "<absolute>"; };
 		8D22D3091F4D323C00A27597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D22D30B1F4D323C00A27597 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		8D22D30D1F4D323C00A27597 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +43,10 @@
 		8D22D3121F4D323D00A27597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D22D3151F4D323D00A27597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D22D3171F4D323D00A27597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D22D31C1F4D323D00A27597 /* nutritionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nutritionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D22D3201F4D323D00A27597 /* nutritionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritionTests.swift; sourceTree = "<group>"; };
-		8D22D3221F4D323D00A27597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D22D3271F4D323D00A27597 /* nutritionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nutritionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D22D32B1F4D323D00A27597 /* nutritionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritionUITests.swift; sourceTree = "<group>"; };
-		8D22D32D1F4D323D00A27597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D22D31C1F4D323D00A27597 /* nutritionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = nutritionTests.xctest; path = "/Users/JackYe/Documents/RandomProjects/HealthApp/test/nutrition/build/Debug-iphoneos/nutritionTests.xctest"; sourceTree = "<absolute>"; };
+		8D22D3271F4D323D00A27597 /* nutritionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = nutritionUITests.xctest; path = "/Users/JackYe/Documents/RandomProjects/HealthApp/test/nutrition/build/Debug-iphoneos/nutritionUITests.xctest"; sourceTree = "<absolute>"; };
+		8DCDE6E81F4DF448000F5576 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		8DCDE6EB1F4E3C19000F5576 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,25 +78,14 @@
 			isa = PBXGroup;
 			children = (
 				8D22D3081F4D323C00A27597 /* nutrition */,
-				8D22D31F1F4D323D00A27597 /* nutritionTests */,
-				8D22D32A1F4D323D00A27597 /* nutritionUITests */,
-				8D22D3071F4D323C00A27597 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		8D22D3071F4D323C00A27597 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8D22D3061F4D323C00A27597 /* nutrition.app */,
-				8D22D31C1F4D323D00A27597 /* nutritionTests.xctest */,
-				8D22D3271F4D323D00A27597 /* nutritionUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8D22D3081F4D323C00A27597 /* nutrition */ = {
 			isa = PBXGroup;
 			children = (
+				8DCDE6E81F4DF448000F5576 /* CustomTabBarController.swift */,
+				8DCDE6EB1F4E3C19000F5576 /* ThirdViewController.swift */,
 				8D22D3091F4D323C00A27597 /* AppDelegate.swift */,
 				8D22D30B1F4D323C00A27597 /* FirstViewController.swift */,
 				8D22D30D1F4D323C00A27597 /* SecondViewController.swift */,
@@ -108,24 +95,6 @@
 				8D22D3171F4D323D00A27597 /* Info.plist */,
 			);
 			path = nutrition;
-			sourceTree = "<group>";
-		};
-		8D22D31F1F4D323D00A27597 /* nutritionTests */ = {
-			isa = PBXGroup;
-			children = (
-				8D22D3201F4D323D00A27597 /* nutritionTests.swift */,
-				8D22D3221F4D323D00A27597 /* Info.plist */,
-			);
-			path = nutritionTests;
-			sourceTree = "<group>";
-		};
-		8D22D32A1F4D323D00A27597 /* nutritionUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8D22D32B1F4D323D00A27597 /* nutritionUITests.swift */,
-				8D22D32D1F4D323D00A27597 /* Info.plist */,
-			);
-			path = nutritionUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +191,7 @@
 				Base,
 			);
 			mainGroup = 8D22D2FD1F4D323C00A27597;
-			productRefGroup = 8D22D3071F4D323C00A27597 /* Products */;
+			productRefGroup = 8D22D2FD1F4D323C00A27597;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -267,6 +236,8 @@
 			files = (
 				8D22D30E1F4D323C00A27597 /* SecondViewController.swift in Sources */,
 				8D22D30A1F4D323C00A27597 /* AppDelegate.swift in Sources */,
+				8DCDE6EC1F4E3C19000F5576 /* ThirdViewController.swift in Sources */,
+				8DCDE6E91F4DF448000F5576 /* CustomTabBarController.swift in Sources */,
 				8D22D30C1F4D323C00A27597 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D22D3211F4D323D00A27597 /* nutritionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D22D32C1F4D323D00A27597 /* nutritionUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +489,7 @@
 				8D22D3321F4D323D00A27597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D22D3331F4D323D00A27597 /* Build configuration list for PBXNativeTarget "nutritionTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +498,7 @@
 				8D22D3351F4D323D00A27597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D22D3361F4D323D00A27597 /* Build configuration list for PBXNativeTarget "nutritionUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +507,7 @@
 				8D22D3381F4D323D00A27597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
